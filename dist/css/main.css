@@ -31,10 +31,68 @@ html {
   background-size: cover; }
 
 .section-01 {
-  display: flex; }
+  display: flex;
+  height: 100vh; }
+  .section-01__left {
+    width: 30%;
+    background-color: #18f7ef; }
+    .section-01__left__text-box {
+      margin: 8rem; }
+    .section-01__left__heading-primary {
+      font-size: 8.5rem;
+      text-transform: capitalize;
+      color: #ffffff; }
+    .section-01__left__heading-secondary {
+      margin-bottom: 6rem;
+      font-size: 8.5rem;
+      text-transform: capitalize;
+      color: #3624ea; }
+    .section-01__left__paragraph {
+      margin-bottom: 6rem;
+      line-height: 2;
+      font-size: 1.4rem;
+      color: #3624ea; }
+  .section-01__right {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%; }
+    .section-01__right__image-01 {
+      width: 50%;
+      height: 50%; }
+    .section-01__right__image-02 {
+      width: 50%;
+      height: 50%; }
+    .section-01__right__image-03 {
+      width: 100%;
+      height: 50%; }
 
 .section-02 {
-  display: flex; }
+  display: flex;
+  height: 60vh; }
+  .section-02__left {
+    position: relative;
+    width: 30%;
+    z-index: 10; }
+    .section-02__left__image {
+      position: absolute;
+      bottom: 0;
+      left: 20%;
+      height: 80%;
+      opacity: 0.9; }
+  .section-02__right {
+    width: 70%;
+    background-color: #3624ea; }
+    .section-02__right__text-box {
+      margin: 17rem 30rem 0 25rem; }
+    .section-02__right__heading-primary {
+      margin-bottom: 6rem;
+      font-size: 3.5rem;
+      color: #ffffff; }
+    .section-02__right__paragraph {
+      line-height: 2;
+      font-size: 1.2rem;
+      color: #ffffff;
+      margin-bottom: 6rem; }
 
 .navigation {
   display: flex;
@@ -69,3 +127,23 @@ html {
   margin-top: 20rem;
   text-align: center;
   color: #ffffff; }
+
+.btn {
+  width: 33rem;
+  height: 9rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 2rem;
+  border: 3px solid #ffffff;
+  transition: all 300ms ease-in-out; }
+  .btn--secondary-text {
+    color: #3624ea; }
+    .btn--secondary-text:hover {
+      background-color: #ffffff; }
+  .btn--white-text {
+    color: #ffffff; }
+    .btn--white-text:hover {
+      background-color: #ffffff;
+      color: #3624ea; }

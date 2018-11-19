@@ -59,3 +59,35 @@
   text-align: center;
   color: $white-color;
 }
+
+.btn {
+  width: 33rem;
+  height: 9rem;
+
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  padding: 2rem;
+  border: 3px solid $white-color;
+
+  transition: all 300ms ease-in-out;
+
+  &--secondary-text {
+    color: $secondary-color;
+
+    &:hover {
+      background-color: $white-color;
+    }
+  }
+
+  &--white-text {
+    color: $white-color;
+
+    &:hover {
+      background-color: $white-color;
+      color: $secondary-color;
+    }
+  }
+}
