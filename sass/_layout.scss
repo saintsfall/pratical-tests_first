@@ -1,0 +1,53 @@
+/////////////////////////////////////////////
+//// LAYOUT
+.header {
+  height: 100vh;
+
+  background-image: linear-gradient(to top, $black-color, 25%, transparent),
+    url("/images/background.jpg");
+  background-size: cover;
+}
+
+.section-01 {
+  display: flex;
+
+  &__left {
+  }
+
+  &__right {
+  }
+}
+
+.section-02 {
+  display: flex;
+
+  &__left {
+  }
+
+  &__right {
+  }
+}
+
+.footer {
+  &__text-box {
+    &__left {
+    }
+
+    &__right {
+    }
+  }
+
+  &__copy-rights {
+  }
+
+  &__navigation {
+    &__list {
+    }
+
+    &__item {
+    }
+
+    &__link {
+    }
+  }
+}

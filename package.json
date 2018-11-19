@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass src/sass/main.scss dist/css/main.css -w",
-    "watch": "watch 'npm run compile:sass' src/sass"
+    "compile:sass": "node-sass sass/main.scss dist/css/main.css -w",
+    "watch": "watch 'npm run compile:sass' sass"
   },
   "author": "Caio Santos <caio.f.santos@icloud.com>",
   "license": "MIT",
