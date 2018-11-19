@@ -113,25 +113,51 @@
 }
 
 .footer {
+  height: 100%;
+  background-image: url("/images/background-2.jpg");
+  background-size: cover;
+
   &__text-box {
+    display: flex;
+
+    padding: 18rem 25rem 0 25rem;
     &__left {
+      width: 50%;
+
+      padding: 0 1.5rem;
+
+      line-height: 2;
+      font-size: 2.2rem;
+      color: $white-color;
     }
 
     &__right {
+      width: 50%;
+
+      padding: 3.3rem 1.5rem 0 1.5rem;
+
+      line-height: 3;
+      font-size: 1.2rem;
+      color: $white-color;
     }
   }
 
   &__copy-rights {
+    text-align: center;
+    &__logo {
+      margin: 40rem 0 8rem 0;
+    }
+
+    &__paragraph {
+      line-height: 3;
+      color: $white-color;
+    }
   }
 
   &__navigation {
-    &__list {
-    }
+    display: flex;
+    justify-content: center;
 
-    &__item {
-    }
-
-    &__link {
-    }
+    margin-bottom: 20rem;
   }
 }

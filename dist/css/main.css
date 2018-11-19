@@ -94,6 +94,37 @@ html {
       color: #ffffff;
       margin-bottom: 6rem; }
 
+.footer {
+  height: 100%;
+  background-image: url("/images/background-2.jpg");
+  background-size: cover; }
+  .footer__text-box {
+    display: flex;
+    padding: 18rem 25rem 0 25rem; }
+    .footer__text-box__left {
+      width: 50%;
+      padding: 0 1.5rem;
+      line-height: 2;
+      font-size: 2.2rem;
+      color: #ffffff; }
+    .footer__text-box__right {
+      width: 50%;
+      padding: 3.3rem 1.5rem 0 1.5rem;
+      line-height: 3;
+      font-size: 1.2rem;
+      color: #ffffff; }
+  .footer__copy-rights {
+    text-align: center; }
+    .footer__copy-rights__logo {
+      margin: 40rem 0 8rem 0; }
+    .footer__copy-rights__paragraph {
+      line-height: 3;
+      color: #ffffff; }
+  .footer__navigation {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20rem; }
+
 .navigation {
   display: flex;
   align-items: center;
