@@ -6,6 +6,8 @@
   background-image: linear-gradient(to top, $black-color, 25%, transparent),
     url("/images/background.jpg");
   background-size: cover;
+
+  background-attachment: fixed;
 }
 
 .section-01 {

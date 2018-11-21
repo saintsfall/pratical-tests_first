@@ -28,7 +28,8 @@ html {
 .header {
   height: 100vh;
   background-image: linear-gradient(to top, #060509, 25%, transparent), url("/images/background.jpg");
-  background-size: cover; }
+  background-size: cover;
+  background-attachment: fixed; }
 
 .section-01 {
   display: flex;
